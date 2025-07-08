@@ -97,7 +97,7 @@ class _AnimatedLoadingScreenState extends State<AnimatedLoadingScreen>
                     ),
                     children: const [
                       TextSpan(
-                        text: 'BRI',
+                        text: 'Bri',
                         style: TextStyle(color: Color(0xFF00509F)),
                       ),
                       TextSpan(
