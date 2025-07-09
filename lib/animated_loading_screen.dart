@@ -38,7 +38,8 @@ class _AnimatedLoadingScreenState extends State<AnimatedLoadingScreen>
       duration: const Duration(milliseconds: 800),
     );
 
-    _textSlide = Tween<Offset>(begin: const Offset(0, 1), end: Offset.zero).animate(
+    _textSlide =
+        Tween<Offset>(begin: const Offset(0, 1), end: Offset.zero).animate(
       CurvedAnimation(parent: _textController, curve: Curves.easeOut),
     );
 
@@ -97,7 +98,7 @@ class _AnimatedLoadingScreenState extends State<AnimatedLoadingScreen>
                     ),
                     children: const [
                       TextSpan(
-                        text: 'Bri',
+                        text: 'BRI',
                         style: TextStyle(color: Color(0xFF00509F)),
                       ),
                       TextSpan(
